@@ -1,48 +1,27 @@
 {
   "name": "vue-libreria",
   "version": "1.0.0",
-  "private": true,
-  "homepage": "https://tu-usuario.github.io/vue-libreria",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarsoto5/vue-libreria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cesarsoto5/vue-libreria/issues"
+  },
+  "homepage": "https://github.com/cesarsoto5/vue-libreria#readme",
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.0",
-    "@babel/eslint-parser": "^7.23.0",
-    "@vue/cli-plugin-babel": "~4.5.15",
-    "@vue/cli-plugin-eslint": "~4.5.15",
-    "@vue/cli-service": "~4.5.15",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.20.0",
-    "gh-pages": "^5.0.0",
-    "vue-template-compiler": "^2.6.14"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser",
-      "requireConfigFile": false
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "@vue/cli-service": "^5.0.8"
+  }
 }
