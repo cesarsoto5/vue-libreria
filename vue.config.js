@@ -9,3 +9,7 @@ module.exports = {
     ? '/vue-libreria/'
     : '/'
 }
+
+module.exports = {
+  lintOnSave: false
+}

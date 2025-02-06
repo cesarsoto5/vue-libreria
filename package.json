@@ -2,7 +2,7 @@
   "name": "vue-libreria",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/cesarsoto5/vue-libreria.git",
+  "homepage": "https://tu-usuario.github.io/vue-libreria",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,12 +15,13 @@
     "vue": "^2.6.14"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/eslint-parser": "^7.23.0",
     "@vue/cli-plugin-babel": "~4.5.15",
     "@vue/cli-plugin-eslint": "~4.5.15",
     "@vue/cli-service": "~4.5.15",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.20.0",
     "gh-pages": "^5.0.0",
     "vue-template-compiler": "^2.6.14"
   },
@@ -34,7 +35,8 @@
       "eslint:recommended"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile": false
     },
     "rules": {}
   },
